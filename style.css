@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvtMPYfVy9wDr0OONzTGldqsS-HJAw6DRNw&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#form{
+    align-items: center;
+    /* margin-top: 10px; */
+    margin-left: 460px;
+    max-width: 400px;
+    padding: 40px;
+    background-color: rgb(180, 231, 233);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(79, 31, 31, 0.1);
+}
+.form-label{
+    font-weight: bold;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border : 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: #6aa5e3;
+}
+.form-check-label{
+    font-weight: normal;
+}
